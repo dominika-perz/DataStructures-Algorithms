@@ -95,3 +95,71 @@ def large_cont_sum(array):
             max_sum = current_sum
 
     return max_sum, start, stop
+
+
+# Sentence reversal
+def reverse_sentence(sentence):
+    words = sentence.split()
+    return ' '.join(reversed(words))
+
+
+def reverse_sentence_basic(sentence):
+    words = []
+    new_word = True
+    for letter in sentence:
+        if letter not in '\n\r\t ':
+            if new_word:
+                words.append(letter)
+                new_word = False
+            else:
+                words[-1] += letter
+        else:
+            new_word = True
+
+    reversed_sentence = None
+    for word in words:
+        if reversed_sentence is None:
+            reversed_sentence = word
+        else:
+            reversed_sentence = word + ' ' + reversed_sentence
+
+    return reversed_sentence
+
+
+# String compression
+def string_compression(string):
+    current_letter = ''
+    count = 0
+    compression = ''
+    for letter in string:
+        if letter == current_letter:
+            count += 1
+        else:
+            if count > 0:
+                compression += str(count)
+            current_letter = letter
+            count = 1
+            compression += letter
+
+    if count > 0:
+        compression += str(count)
+
+    return compression
+
+
+# Unique character in string
+def unique_char_in_str(string):
+    unique_char = set(string)
+
+    return len(unique_char) == len(string)
+
+
+def unique_char_in_str2(string):
+    seen = set()
+    for char in string:
+        if char in seen:
+            return False
+        else:
+            seen.add(char)
+
+    return True

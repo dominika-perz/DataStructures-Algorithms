@@ -5,6 +5,9 @@ from Arrays.InterviewProblems import is_anagram, is_anagram2, is_anagram3
 from Arrays.InterviewProblems import array_pair_sum
 from Arrays.InterviewProblems import find_missing_sum, find_missing_xor
 from Arrays.InterviewProblems import large_cont_sum
+from Arrays.InterviewProblems import reverse_sentence, reverse_sentence_basic
+from Arrays.InterviewProblems import string_compression
+from Arrays.InterviewProblems import unique_char_in_str, unique_char_in_str2
 
 
 class TestInterviewProblems(TestCase):
@@ -70,3 +73,30 @@ class TestInterviewProblems(TestCase):
         self.assertEqual(large_cont_sum([1, 2, -1, 3, 4, -1]), (9, 1, 4))
         self.assertEqual(large_cont_sum([1, 2, -1, 3, 4, 10, 10, -10, -1]), (29, 1, 10))
         self.assertEqual(large_cont_sum([-1, 1]), (1, 1, 1))
+
+    def test_reverse_sentence(self):
+        self.assertEqual(reverse_sentence('    space before'), 'before space')
+        self.assertEqual(reverse_sentence('space after     '), 'after space')
+        self.assertEqual(reverse_sentence('   Hello John    how are you   '), 'you are how John Hello')
+        self.assertEqual(reverse_sentence('1'), '1')
+
+    def test_reverse_sentence(self):
+        self.assertEqual(reverse_sentence_basic('    space before'), 'before space')
+        self.assertEqual(reverse_sentence_basic('space after     '), 'after space')
+        self.assertEqual(reverse_sentence_basic('   Hello John    how are you   '), 'you are how John Hello')
+        self.assertEqual(reverse_sentence_basic('1'), '1')
+
+    def test_string_compression(self):
+        self.assertEqual(string_compression(''), '')
+        self.assertEqual(string_compression('AABBCC'), 'A2B2C2')
+        self.assertEqual(string_compression('AAABCCDDDDD'), 'A3B1C2D5')
+
+    def test_unique_char_in_str(self):
+        self.assertEqual(unique_char_in_str(''), True)
+        self.assertEqual(unique_char_in_str('goo'), False)
+        self.assertEqual(unique_char_in_str('abcdefg'), True)
+
+    def test_unique_char_in_str2(self):
+        self.assertEqual(unique_char_in_str2(''), True)
+        self.assertEqual(unique_char_in_str2('goo'), False)
+        self.assertEqual(unique_char_in_str2('abcdefg'), True)

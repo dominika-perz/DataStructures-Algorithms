@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="945d9ef5-c5a9-4892-a9c1-31e3586856ef" name="Default Changelist" comment="" />
+    <list default="true" id="945d9ef5-c5a9-4892-a9c1-31e3586856ef" name="Default Changelist" comment="Added largest continuous sum implementation and tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/InterviewProblems.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/InterviewProblems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/test_InterviewProblems.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/test_InterviewProblems.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +107,14 @@
       <option name="presentableId" value="Default" />
       <updated>1587901081229</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added largest continuous sum implementation and tests">
+      <created>1587998789948</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587998789948</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +127,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added largest continuous sum implementation and tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added largest continuous sum implementation and tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587914321926">
@@ -133,22 +149,22 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2660" y="280" key="FileChooserDialogImpl/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587994384896" />
-    <state width="1899" height="266" key="GridCell.Tab.0.bottom" timestamp="1587998680302">
+    <state width="1899" height="266" key="GridCell.Tab.0.bottom" timestamp="1588006476193">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587998680302" />
-    <state width="1899" height="266" key="GridCell.Tab.0.center" timestamp="1587998680302">
+    <state width="1899" height="266" key="GridCell.Tab.0.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588006476193" />
+    <state width="1899" height="266" key="GridCell.Tab.0.center" timestamp="1588006476193">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587998680302" />
-    <state width="1899" height="266" key="GridCell.Tab.0.left" timestamp="1587998680302">
+    <state width="1899" height="266" key="GridCell.Tab.0.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588006476193" />
+    <state width="1899" height="266" key="GridCell.Tab.0.left" timestamp="1588006476192">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587998680302" />
-    <state width="1899" height="266" key="GridCell.Tab.0.right" timestamp="1587998680302">
+    <state width="1899" height="266" key="GridCell.Tab.0.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588006476192" />
+    <state width="1899" height="266" key="GridCell.Tab.0.right" timestamp="1588006476193">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587998680302" />
+    <state width="1899" height="266" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588006476193" />
     <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1587994468489">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -169,9 +185,9 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2381" y="170" key="SettingsEditor/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587994395775" />
-    <state x="2689" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587994233716">
+    <state x="2689" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587998723834">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2689" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587994233716" />
+    <state x="2689" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587998723834" />
   </component>
 </project>
