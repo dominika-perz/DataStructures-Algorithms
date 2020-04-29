@@ -19,10 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="945d9ef5-c5a9-4892-a9c1-31e3586856ef" name="Default Changelist" comment="Added largest continuous sum implementation and tests">
+    <list default="true" id="945d9ef5-c5a9-4892-a9c1-31e3586856ef" name="Default Changelist" comment="Add other array interview tasks">
+      <change afterPath="$PROJECT_DIR$/Queue_Stack_Deque/Deque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue_Stack_Deque/InterviewProblems.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue_Stack_Deque/Queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue_Stack_Deque/Stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue_Stack_Deque/test_Queue_Stack_Deque.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/InterviewProblems.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/InterviewProblems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/test_InterviewProblems.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/test_InterviewProblems.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -56,7 +59,7 @@
       <recent name="C:\Users\domin\PycharmProjects\DataStructures-Algorithms\Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_InterviewProblems.py">
+  <component name="RunManager" selected="Python tests.pytest in test_Queue_Stack_Deque.py">
     <configuration name="pytest in test_DynamicArray.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DataStructures-Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,8 +92,25 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_Queue_Stack_Deque.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures-Algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Queue_Stack_Deque" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Queue_Stack_Deque/test_Queue_Stack_Deque.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_Queue_Stack_Deque.py" />
         <item itemvalue="Python tests.pytest in test_InterviewProblems.py" />
         <item itemvalue="Python tests.pytest in test_DynamicArray.py" />
       </list>
@@ -114,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587998789948</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add other array interview tasks">
+      <created>1588006714726</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588006714726</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,7 +157,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added largest continuous sum implementation and tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added largest continuous sum implementation and tests" />
+    <MESSAGE value="Add other array interview tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add other array interview tasks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587914321926">
@@ -149,22 +177,22 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2660" y="280" key="FileChooserDialogImpl/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587994384896" />
-    <state width="1899" height="266" key="GridCell.Tab.0.bottom" timestamp="1588006476193">
+    <state width="1899" height="336" key="GridCell.Tab.0.bottom" timestamp="1588170110529">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588006476193" />
-    <state width="1899" height="266" key="GridCell.Tab.0.center" timestamp="1588006476193">
+    <state width="1899" height="336" key="GridCell.Tab.0.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588170110529" />
+    <state width="1899" height="336" key="GridCell.Tab.0.center" timestamp="1588170110529">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588006476193" />
-    <state width="1899" height="266" key="GridCell.Tab.0.left" timestamp="1588006476192">
+    <state width="1899" height="336" key="GridCell.Tab.0.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588170110529" />
+    <state width="1899" height="336" key="GridCell.Tab.0.left" timestamp="1588170110529">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588006476192" />
-    <state width="1899" height="266" key="GridCell.Tab.0.right" timestamp="1588006476193">
+    <state width="1899" height="336" key="GridCell.Tab.0.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588170110529" />
+    <state width="1899" height="336" key="GridCell.Tab.0.right" timestamp="1588170110529">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="266" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588006476193" />
+    <state width="1899" height="336" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588170110529" />
     <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1587994468489">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -185,9 +213,9 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2381" y="170" key="SettingsEditor/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587994395775" />
-    <state x="2689" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587998723834">
+    <state x="2689" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588056191964">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2689" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587998723834" />
+    <state x="2689" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588056191964" />
   </component>
 </project>
