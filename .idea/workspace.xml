@@ -19,13 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="945d9ef5-c5a9-4892-a9c1-31e3586856ef" name="Default Changelist" comment="Add other array interview tasks">
-      <change afterPath="$PROJECT_DIR$/Queue_Stack_Deque/Deque.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue_Stack_Deque/InterviewProblems.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue_Stack_Deque/Queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue_Stack_Deque/Stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue_Stack_Deque/test_Queue_Stack_Deque.py" afterDir="false" />
+    <list default="true" id="945d9ef5-c5a9-4892-a9c1-31e3586856ef" name="Default Changelist" comment="Stack, Queue and Deque - implementation, tests and interview problems">
+      <change afterPath="$PROJECT_DIR$/Algorithms/SortingAlgorithms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/Heaps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedLists/DoubleLinkedListNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedLists/SingleLinkedListNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedLists/test_LinkedLists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/UnionFind.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/DynamicArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Arrays/DynamicArray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/InterviewProblems.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Arrays/InterviewProblems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/test_DynamicArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Arrays/test_DynamicArray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/test_InterviewProblems.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Arrays/test_InterviewProblems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue_Stack_Deque/Deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Queue_Stack_Deque/Deque.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue_Stack_Deque/InterviewProblems.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Queue_Stack_Deque/InterviewProblems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue_Stack_Deque/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Queue_Stack_Deque/Queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue_Stack_Deque/Stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Queue_Stack_Deque/Stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue_Stack_Deque/test_Queue_Stack_Deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Queue_Stack_Deque/test_Queue_Stack_Deque.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,67 +62,114 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="auto.test.manager.delay" value="10000" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LinkedLists" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\domin\PycharmProjects\DataStructures-Algorithms\DataStructures" />
       <recent name="C:\Users\domin\PycharmProjects\DataStructures-Algorithms\Arrays" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\domin\PycharmProjects\DataStructures-Algorithms\LinkedLists" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_Queue_Stack_Deque.py">
-    <configuration name="pytest in test_DynamicArray.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Doctests in UnionFind">
+    <configuration name="Doctest adding_bitwise" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="DataStructures-Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Arrays/test_DynamicArray.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/SortingAlgorithms.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="adding_bitwise" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_InterviewProblems.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctest insertion_sort" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="DataStructures-Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arrays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Arrays/test_InterviewProblems.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/SortingAlgorithms.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="insertion_sort" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_Queue_Stack_Deque.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in MinHeap" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="DataStructures-Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Queue_Stack_Deque" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/Heaps.py" />
+      <option name="CLASS_NAME" value="MinHeap" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in UnionFind" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures-Algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/UnionFind.py" />
+      <option name="CLASS_NAME" value="UnionFind" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_LinkedLists.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures-Algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructures/LinkedLists" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Queue_Stack_Deque/test_Queue_Stack_Deque.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/DataStructures/LinkedLists/test_LinkedLists.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_Queue_Stack_Deque.py" />
-        <item itemvalue="Python tests.pytest in test_InterviewProblems.py" />
-        <item itemvalue="Python tests.pytest in test_DynamicArray.py" />
+        <item itemvalue="Python tests.Doctests in UnionFind" />
+        <item itemvalue="Python tests.Doctest adding_bitwise" />
+        <item itemvalue="Python tests.Doctest insertion_sort" />
+        <item itemvalue="Python tests.Doctests in MinHeap" />
+        <item itemvalue="Python tests.pytest in test_LinkedLists.py" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588006714726</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Stack, Queue and Deque - implementation, tests and interview problems">
+      <created>1588171209080</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588171209080</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,11 +218,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added largest continuous sum implementation and tests" />
     <MESSAGE value="Add other array interview tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add other array interview tasks" />
+    <MESSAGE value="Stack, Queue and Deque - implementation, tests and interview problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack, Queue and Deque - implementation, tests and interview problems" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587914321926">
@@ -177,37 +243,45 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2660" y="280" key="FileChooserDialogImpl/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587994384896" />
-    <state width="1899" height="336" key="GridCell.Tab.0.bottom" timestamp="1588170110529">
+    <state width="1899" height="197" key="GridCell.Tab.0.bottom" timestamp="1589032205408">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="336" key="GridCell.Tab.0.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588170110529" />
-    <state width="1899" height="336" key="GridCell.Tab.0.center" timestamp="1588170110529">
+    <state width="1515" height="400" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588954736363" />
+    <state width="1899" height="197" key="GridCell.Tab.0.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1589032205408" />
+    <state width="1899" height="197" key="GridCell.Tab.0.center" timestamp="1589032205407">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="336" key="GridCell.Tab.0.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588170110529" />
-    <state width="1899" height="336" key="GridCell.Tab.0.left" timestamp="1588170110529">
+    <state width="1515" height="400" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1588954736363" />
+    <state width="1899" height="197" key="GridCell.Tab.0.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1589032205407" />
+    <state width="1899" height="197" key="GridCell.Tab.0.left" timestamp="1589032205407">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="336" key="GridCell.Tab.0.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588170110529" />
-    <state width="1899" height="336" key="GridCell.Tab.0.right" timestamp="1588170110529">
+    <state width="1515" height="400" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1588954736363" />
+    <state width="1899" height="197" key="GridCell.Tab.0.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1589032205407" />
+    <state width="1899" height="197" key="GridCell.Tab.0.right" timestamp="1589032205407">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="336" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588170110529" />
-    <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1587994468489">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1515" height="400" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1588954736363" />
+    <state width="1899" height="197" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1589032205407" />
+    <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1588502135012">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="1899" height="352" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588502135012" />
     <state width="1899" height="352" key="GridCell.Tab.1.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587994468489" />
-    <state width="1899" height="352" key="GridCell.Tab.1.center" timestamp="1587994468488">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1899" height="352" key="GridCell.Tab.1.center" timestamp="1588502135012">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="1899" height="352" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1588502135012" />
     <state width="1899" height="352" key="GridCell.Tab.1.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587994468488" />
-    <state width="1899" height="352" key="GridCell.Tab.1.left" timestamp="1587994468488">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1899" height="352" key="GridCell.Tab.1.left" timestamp="1588502135012">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="1899" height="352" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1588502135012" />
     <state width="1899" height="352" key="GridCell.Tab.1.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587994468488" />
-    <state width="1899" height="352" key="GridCell.Tab.1.right" timestamp="1587994468488">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state width="1899" height="352" key="GridCell.Tab.1.right" timestamp="1588502135012">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="1899" height="352" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1588502135012" />
     <state width="1899" height="352" key="GridCell.Tab.1.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587994468488" />
     <state x="2381" y="170" key="SettingsEditor" timestamp="1587994395775">
       <screen x="1920" y="0" width="1920" height="1050" />
@@ -217,5 +291,13 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2689" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588056191964" />
+    <state x="2587" y="127" width="585" height="795" key="find.popup" timestamp="1589029779540">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2587" y="127" width="585" height="795" key="find.popup/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1589029779540" />
+    <state x="2543" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1588860309422">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2543" y="227" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1588860309422" />
   </component>
 </project>

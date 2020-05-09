@@ -1,5 +1,5 @@
 from unittest import TestCase
-from Arrays.DynamicArray import DynamicArray
+from DataStructures.Arrays.DynamicArray import DynamicArray
 
 
 class TestInit(TestCase):
