@@ -1,8 +1,8 @@
-from unittest import TestCase
-from DataStructures.Arrays.DynamicArray import DynamicArray
+import unittest
+from data_structures.arrays.DynamicArray import DynamicArray
 
 
-class TestInit(TestCase):
+class TestInit(unittest.TestCase):
     def test_empty_init(self):
         new_array = DynamicArray()
         self.assertIsInstance(new_array, DynamicArray)
@@ -16,13 +16,13 @@ class TestInit(TestCase):
         self.assertEqual(new_array._capacity, 1)
 
 
-class TestLen(TestCase):
+class TestLen(unittest.TestCase):
     def test_init_len(self):
         new_array = DynamicArray()
         self.assertEqual(len(new_array), 0)
 
 
-class TestBasicAssignment(TestCase):
+class TestBasicAssignment(unittest.TestCase):
     def test_append(self):
         new_array = DynamicArray()
         new_array.append(1)
@@ -42,10 +42,14 @@ class TestBasicAssignment(TestCase):
             self.assertEqual(len(new_array), i+1)
 
 
-class TestGetItem(TestCase):
+class TestGetItem(unittest.TestCase):
     def test_append(self):
         new_array = DynamicArray()
         for i in range(10):
             new_array.append(i*3)
         for i in range(10):
             self.assertEqual(new_array[i], i*3)
+
+
+if __name__ == '__main--':
+    unittest.main()

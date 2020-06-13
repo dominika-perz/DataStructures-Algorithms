@@ -1,7 +1,7 @@
 import unittest
-from DataStructures.Queue_Stack_Deque.Stack import Stack
-from DataStructures.Queue_Stack_Deque.Queue import Queue
-from DataStructures.Queue_Stack_Deque.InterviewProblems import parentheses_check, TwoStackQueue
+from data_structures.queue_stack_deque.Stack import Stack
+from data_structures.queue_stack_deque.Queue import Queue
+from data_structures.queue_stack_deque.InterviewProblems import parentheses_check, TwoStackQueue
 
 
 class TestStack(unittest.TestCase):

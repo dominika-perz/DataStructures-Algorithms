@@ -1,12 +1,12 @@
 from unittest import TestCase
 import time
-from DataStructures.Arrays.InterviewProblems import is_anagram, is_anagram2, is_anagram3
-from DataStructures.Arrays.InterviewProblems import array_pair_sum
-from DataStructures.Arrays.InterviewProblems import find_missing_sum, find_missing_xor
-from DataStructures.Arrays.InterviewProblems import large_cont_sum
-from DataStructures.Arrays.InterviewProblems import reverse_sentence, reverse_sentence_basic
-from DataStructures.Arrays.InterviewProblems import string_compression
-from DataStructures.Arrays.InterviewProblems import unique_char_in_str, unique_char_in_str2
+from data_structures.arrays.InterviewProblems import is_anagram, is_anagram2, is_anagram3
+from data_structures.arrays.InterviewProblems import array_pair_sum
+from data_structures.arrays.InterviewProblems import find_missing_sum, find_missing_xor
+from data_structures.arrays.InterviewProblems import large_cont_sum
+from data_structures.arrays.InterviewProblems import reverse_sentence, reverse_sentence_basic
+from data_structures.arrays.InterviewProblems import string_compression
+from data_structures.arrays.InterviewProblems import unique_char_in_str, unique_char_in_str2
 
 
 class TestInterviewProblems(TestCase):

@@ -1,4 +1,4 @@
-from DataStructures.Queue_Stack_Deque.Stack import Stack
+from data_structures.queue_stack_deque.Stack import Stack
 
 
 def parentheses_check(string):

@@ -1,6 +1,6 @@
 import unittest
-from DataStructures.LinkedLists.SingleLinkedListNode import *
-from DataStructures.LinkedLists.DoubleLinkedListNode import *
+from data_structures.linked_lists.SingleLinkedListNode import *
+from data_structures.linked_lists.DoubleLinkedListNode import *
 
 
 class TestInterviewProblems(unittest.TestCase):
@@ -47,9 +47,6 @@ class TestInterviewProblems(unittest.TestCase):
 
         e.next = c
         self.assertTrue(cycle_check(head))
-
-
-
 
 
 if __name__ == '__main__':
