@@ -19,23 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="945d9ef5-c5a9-4892-a9c1-31e3586856ef" name="Default Changelist" comment="Added Union Find, Heap and sorting algorithms files. Updated structure of the files">
+    <list default="true" id="945d9ef5-c5a9-4892-a9c1-31e3586856ef" name="Default Changelist" comment="Refactor of module names">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/SortingAlgorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/sorting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/Arrays/DynamicArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/arrays/DynamicArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/Arrays/InterviewProblems.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/arrays/InterviewProblems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/Arrays/test_DynamicArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/arrays/test_DynamicArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/Arrays/test_InterviewProblems.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/arrays/test_InterviewProblems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/Heaps.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/heaps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinkedLists/DoubleLinkedListNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/linked_lists/DoubleLinkedListNode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinkedLists/SingleLinkedListNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/linked_lists/SingleLinkedListNode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/LinkedLists/test_LinkedLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/linked_lists/test_LinkedLists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/Queue_Stack_Deque/Deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/queue_stack_deque/Deque.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/Queue_Stack_Deque/InterviewProblems.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/queue_stack_deque/InterviewProblems.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/Queue_Stack_Deque/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/queue_stack_deque/Queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/Queue_Stack_Deque/Stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/queue_stack_deque/Stack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/Queue_Stack_Deque/test_Queue_Stack_Deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/queue_stack_deque/test_Queue_Stack_Deque.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/UnionFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/union_find.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/linked_lists/test_LinkedLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/linked_lists/test_LinkedLists.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +60,7 @@
       <recent name="C:\Users\domin\PycharmProjects\DataStructures-Algorithms\LinkedLists" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_DynamicArray.py">
+  <component name="RunManager" selected="Python tests.pytest in test_LinkedLists.py">
     <configuration name="Doctest adding_bitwise" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="DataStructures-Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,24 +93,6 @@
       <option name="METHOD_NAME" value="insertion_sort" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Doctests in MinHeap" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="DataStructures-Algorithms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\domin\PycharmProjects\DataStructures-Algorithms\data_structures" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/Heaps.py" />
-      <option name="CLASS_NAME" value="MinHeap" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
@@ -163,13 +131,29 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_LinkedLists.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures-Algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures/linked_lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/data_structures/linked_lists/test_LinkedLists.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_LinkedLists.py" />
         <item itemvalue="Python tests.pytest in test_DynamicArray.py" />
         <item itemvalue="Python tests.Doctests in UnionFind" />
         <item itemvalue="Python tests.Doctest adding_bitwise" />
         <item itemvalue="Python tests.Doctest insertion_sort" />
-        <item itemvalue="Python tests.Doctests in MinHeap" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589037018482</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactor of module names">
+      <created>1592057586747</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592057586747</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,7 +223,8 @@
     <MESSAGE value="Add other array interview tasks" />
     <MESSAGE value="Stack, Queue and Deque - implementation, tests and interview problems" />
     <MESSAGE value="Added Union Find, Heap and sorting algorithms files. Updated structure of the files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Union Find, Heap and sorting algorithms files. Updated structure of the files" />
+    <MESSAGE value="Refactor of module names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor of module names" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587914321926">
@@ -251,26 +243,26 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2660" y="280" key="FileChooserDialogImpl/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1587994384896" />
-    <state width="1899" height="197" key="GridCell.Tab.0.bottom" timestamp="1592057247645">
+    <state width="1899" height="197" key="GridCell.Tab.0.bottom" timestamp="1592058382591">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1515" height="400" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588954736363" />
-    <state width="1899" height="197" key="GridCell.Tab.0.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1592057247645" />
-    <state width="1899" height="197" key="GridCell.Tab.0.center" timestamp="1592057247645">
+    <state width="1899" height="197" key="GridCell.Tab.0.bottom/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1592058382591" />
+    <state width="1899" height="197" key="GridCell.Tab.0.center" timestamp="1592058382590">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1515" height="400" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1588954736363" />
-    <state width="1899" height="197" key="GridCell.Tab.0.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1592057247645" />
-    <state width="1899" height="197" key="GridCell.Tab.0.left" timestamp="1592057247644">
+    <state width="1899" height="197" key="GridCell.Tab.0.center/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1592058382590" />
+    <state width="1899" height="197" key="GridCell.Tab.0.left" timestamp="1592058382590">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1515" height="400" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1588954736363" />
-    <state width="1899" height="197" key="GridCell.Tab.0.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1592057247644" />
-    <state width="1899" height="197" key="GridCell.Tab.0.right" timestamp="1592057247645">
+    <state width="1899" height="197" key="GridCell.Tab.0.left/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1592058382590" />
+    <state width="1899" height="197" key="GridCell.Tab.0.right" timestamp="1592058382591">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1515" height="400" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1588954736363" />
-    <state width="1899" height="197" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1592057247645" />
+    <state width="1899" height="197" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@1920.0.1920.1050" timestamp="1592058382591" />
     <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1588502135012">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
